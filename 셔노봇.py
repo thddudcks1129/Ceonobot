@@ -1,4 +1,5 @@
 import asyncio
+import os
 import discord
 import random
 import traceback
@@ -1005,5 +1006,5 @@ async def on_message(message):
                     a = 1
 
 
-
-client.run('NTIzNzk4OTY1NTE5NjQ2NzM0.DvexaA.gAo6iSiJdc57UwuWwQY7DC_0qSA')
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
