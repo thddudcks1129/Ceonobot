@@ -1,5 +1,5 @@
 discord.py==0.16.12
-asyncio.py
+asyncio.py==0.16.12
 random.py
 traceback.py
 time.py
